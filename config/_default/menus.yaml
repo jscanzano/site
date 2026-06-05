@@ -8,11 +8,11 @@ main:
     identifier: a8d74cee
     url: /
     weight: 10
-  - name: Papers
-    identifier: 362ea7d9
-    url: /#papers
-    weight: 20
   - name: Education & Experience
     identifier: education-experience
     url: /experience
+    weight: 20
+  - name: Papers
+    identifier: 362ea7d9
+    url: /publication
     weight: 30

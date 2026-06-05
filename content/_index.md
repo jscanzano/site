@@ -57,7 +57,7 @@ sections:
         exclude_featured: false
       archive:
         enable: true
-        link: "/publications.md"
+        link: "/publication"
       sort_by: "Date"
       sort_ascending: false
       order: "desc"
