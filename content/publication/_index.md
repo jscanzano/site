@@ -1,5 +1,24 @@
 ---
 title: Publications
+type: landing
+
+sections:
+
+  - block: collection
+    content:
+      title: All Publications
+      filters:
+        folders:
+          - publication
+      archive:
+        enable: false
+      count: 100
+    design:
+      view: citation
+---
+
+<!-- ---
+title: Publications
 cms_exclude: true
 
 # View.
@@ -9,4 +28,4 @@ view: citation
 banner:
   caption: ''
   image: ''
----
+--- -->
