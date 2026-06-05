@@ -12,23 +12,7 @@ main:
     identifier: 362ea7d9
     url: /#papers
     weight: 20
-  - name: Talks
-    identifier: d8042657
-    url: /#talks
+  - name: Education & Experience
+    identifier: education-experience
+    url: /experience
     weight: 30
-  - name: Experience
-    identifier: e62ac5f1
-    url: experience/
-    weight: 40
-  - name: Projects
-    identifier: fb3626bd
-    url: projects/
-    weight: 50
-  - name: Courses
-    identifier: 23f97401
-    url: courses/
-    weight: 60
-  - name: Blog
-    identifier: 8a6d07cf
-    url: /blog
-    weight: 70

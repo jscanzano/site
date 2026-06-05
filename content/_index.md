@@ -7,14 +7,12 @@ sections:
   - block: "resume-biography-3"
     content:
       username: "me"
-      button:
-        text: "Download CV"
-        url: "uploads/resume.pdf"
+      button: {}
       headings:
-        about: ""
+        about: "About"
         education: ""
         interests: ""
-      text: "uirhgihurd uridthg rditgihrdt gdrtghirgtr dtdorjt gidr jirtoj drtioh"
+      text: "Systems neuroscientist specialized in complex naturalistic rodent VR and mesoscale optical recording techniques"
     design:
       background:
         gradient_mesh:
@@ -24,6 +22,8 @@ sections:
       avatar:
         size: "medium"
         shape: "circle"
+      banner:
+        filename: "test.png"
     ce: "section-ff37afb4"
     As: "section-ff7a1c4e"
   - block: "markdown"
@@ -31,56 +31,49 @@ sections:
       title: "My Research"
       subtitle: ""
       text: |-
-        here's what I study and my interests.
+        I study representation and computation in sensory cortex, and use visual navigation in mice as a model. 
 
-        here's the techniques I know and use.
+        To do this, I build custom rigs for mouse behavior in virtual reality and design novel tasks that require vision to solve. I make them complex, active, and naturalistic to challenge their invariance and to see the interplay between action and sensory signals in visual cortex.
 
-        here's what I'm looking to do next
+        ![Figure 1](figure1.png)
+
+
+        Then, I use optical techniques for recording and manipulation from systems neuroscience to study how cortical processing works. I record the activity from thousands of cortical neurons at once, then use sophisticated machine learning to describe how information is formatted, where it is, how it's computed, and so on. 
+
+        ![Figure 2](figure2.png)
+
+
+        During my PhD with Spencer Smith, I described several distinctions in how higher visual areas represent vision and behavior, and also showed that behavior info in mouse visual cortex changes dramatically with changes in the visual input.
     design:
       columns: "1"
     ce: "section-9da0d161"
     As: "section-6e2c79bc"
-  - block: "cta-image-paragraph"
-    ce: "section-5-cta-image-paragraph"
-    content:
-      items:
-        - title: "thdrhdrt"
-          text: "drthdhrthdthdh"
-          image: "Jersey_Mike's_logo.svg.png"
-          feature_icon: "check"
-          features:
-            - "djjj"
-            - "t"
-            - "h"
-          button:
-            text: ""
-            url: ""
-    As: "section-3276ee84"
-  - block: "collection"
-    content:
-      title: "Featured Publications"
-      filters:
-        folders:
-          - "publications"
-        featured_only: true
-    design:
-      view: "article-grid"
-      columns: 2
-    ce: "section-papers"
-    id: "papers"
-    As: "section-c819d540"
   - block: "collection"
     content:
       title: "Recent Publications"
-      text: ""
       filters:
         folders:
-          - "publications"
+          - "publication"
         exclude_featured: false
+      archive:
+        enable: true
+        link: "/publications.md"
+      sort_by: "Date"
+      sort_ascending: false
+      order: "desc"
+      count: 3
     design:
       view: "citation"
     ce: "section-b8bcac4e"
     As: "section-65fad144"
+  - block: "resume-experience"
+    content:
+      username: "me"
+      text: "ddddd  rhesuighseruigh "
+    ce: "section-6f8b13db"
+    design:
+      is_education_first: true
+    As: "section-7f27bd7e"
   - block: "cta-card"
     demo: true
     content:

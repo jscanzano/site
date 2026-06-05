@@ -1,31 +1,33 @@
 hugoblox:
   schema: "2.0"
   identity:
-    name: Joe S Canzano
+    name: JSCanzano
     type: person
     tagline: Systems neuroscientist | UCSB
     description: Joe Canzano is a systems neuroscientist...
   theme:
     mode: system
-    pack: default
+    pack: minimal
     colors:
-      primary: ""
-      secondary: ""
-      neutral: ""
+      primary: "gray"
+      secondary: "#1f1f47"
+      neutral: "slate"
   typography:
     font: sans
     size: md
+    pack: modern
   layout:
     radius: md
     spacing: comfortable
     avatar_shape: circle
   header:
     enable: true
-    style: navbar
+    style: navbar-simple
     sticky: true
-    align: center
-    search: true
-    theme_toggle: true
+    align: left
+    search: false
+    theme_toggle: false
+    language_switcher: false
   footer:
     style: minimal
     language_switcher: true
@@ -37,6 +39,6 @@ hugoblox:
     toc:
       enable: true
     reading_time:
-      enable: true
+      enable: false
   search:
     enable: true
